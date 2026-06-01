@@ -40,7 +40,7 @@
     } else if (minute.value != 0 && sec.value == 0) {
       sec.value = 59;
       minute.value = `${minute.value <= 10 ? 0 : ""}${minute.value - 1}`;
-    } else if (hour.valu != 0 && minute.value == 0) {
+    } else if (hour.value != 0 && minute.value == 0) {
       minute.value = 60;
       hour.value = `${hour.value <= 10 ? 0 : ""}${hour.value - 1}`;
     }
