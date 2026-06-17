@@ -1,0 +1,52 @@
+.toast {
+  min-width: 280px;
+  max-width: 360px;
+  padding: 12px;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0, 16);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  pointer-events: auto;
+  animation: slideIn 200ms ease-out;
+}
+
+.success {
+  border-left: 5px solid green;
+}
+
+.error {
+  border-left: 5px solid red;
+}
+
+.warning {
+  border-left: 5px solid orange;
+}
+
+.info {
+  border-left: 5px solid blue;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.message {
+  flex: 1;
+  margin: 0;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+.closeButton {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.closeButton:focus {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
